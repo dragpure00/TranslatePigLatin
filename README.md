@@ -1,2 +1,2 @@
 # TranslatePigLatin
-translaing english words to pig latin
+The main purpose of this code is to translate english words into pig latin. First the constant variable regex is equal to /^[^aeiou]+/g which is a consonant in terms of regex terms. Then it will match with the str (string) and check if the word begins with a conconant then it will move it to the end of the word and add "ay" to it and if the word begins wiht a vowel and "way" gets added at the end.
